@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </radialGradient>
+    <linearGradient id="granite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="handle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- House rings in background -->
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#1d4ed8" stroke-width="24" opacity="0.35" />
+  <circle cx="256" cy="256" r="134" fill="none" stroke="#e2e8f0" stroke-width="20" opacity="0.2" />
+  <circle cx="256" cy="256" r="76" fill="none" stroke="#ef4444" stroke-width="22" opacity="0.35" />
+  <!-- Curling stone -->
+  <ellipse cx="256" cy="316" rx="132" ry="62" fill="url(#granite)" stroke="#cbd5e1" stroke-width="8" />
+  <ellipse cx="256" cy="296" rx="130" ry="44" fill="#cbd5e1" opacity="0.25" />
+  <!-- Running band -->
+  <path d="M 124 316 Q 256 356 388 316" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" opacity="0.85" />
+  <!-- Handle -->
+  <path d="M 214 276 L 214 218 Q 214 196 236 196 L 318 196 Q 334 196 334 212 Q 334 228 318 228 L 248 228 L 248 276 Z" fill="url(#handle)" stroke="#fca5a5" stroke-width="5" />
+</svg>
